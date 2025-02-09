@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment2/media</title>
+  </head>
+  <body>
+    <section>
+      <h1>WELCOME TO MY INTRODUCTORY PAGE</h1>
+    </section>
+    <section>
+      <h1>My Video</h1>
+      <video src="./Assets/Video/AltschoolVideo.mp4" controls></video>
+    </section>
+    <section>
+      <h1>My Audio</h1>
+      <audio src="./Assets/Audio/AltschoolAudio.aac" controls></audio>
+    </section>
+    <section>
+      <h1>My Beautiful Picture</h1>
+      <picture>
+        <source
+          media="(min-width: 900px)"
+          srcset="./Assets/Image/AltschoolImage.jpeg"
+        />
+        <source
+          media="(min-width: 700px)"
+          srcset="./Assets/Image/AltschoolImage.jpeg"
+        />
+        <source
+          media="(min-width: 300px)"
+          srcset="./Assets/Image/AltschoolImage.jpeg"
+        />
+        <img src="./Assets/Image/AltschoolImage.jpeg" alt="img" />
+      </picture>
+    </section>
+  </body>
+</html>
